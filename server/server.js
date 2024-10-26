@@ -61,7 +61,6 @@ app.use('/order', order);
 
 // Rendering the main page
 app.get('/', function (req, res) {
-
   res.json({"message": "Welcome to CampusMart"})
 })
 
